@@ -5,7 +5,7 @@
     $password = $_POST['pass']; 
      
       
-        //to prevent from mysqli injection  
+          
         $user = stripcslashes($user);  
         $password = stripcslashes($password);  
         $user = mysqli_real_escape_string($con, $user);  
